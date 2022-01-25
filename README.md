@@ -8,3 +8,6 @@ A collection of scripts for Cardano
 **wallet_api.ps1** 
 - Create a [Cardano Wallet API](https://input-output-hk.github.io/cardano-wallet/api/edge/) listening process in Windows and connect it to Daedalus. Allows a user to send ADA on the command line using curl and json payloads. 
 
+## Bash scripts
+**ada_cannon.sh**
+- Send a series of transactions to a recipient address. Configure the number of transactions, how much ADA per transaction, and whether any ADA will be sent back. Fees are calculated and a summary is printed of the total cost. Connects to a [Cardano Wallet API](https://input-output-hk.github.io/cardano-wallet/api/edge/) listener process - see wallet_api.ps1 for an example. Useful for ADA token faucets - rather than manually creating transactions one by one, you can automate as many as you want and let the script run. 
