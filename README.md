@@ -1,5 +1,5 @@
 # Cardano Scripts
-A collection of scripts for Cardano
+A collection of scripts for creating Cardano transactions
 
 ## Powershell scripts
 **submit_api.ps1** 
