@@ -18,3 +18,7 @@ A collection of scripts for creating Cardano transactions
 [Cardano Submit API config file example](https://raw.githubusercontent.com/input-output-hk/cardano-node/master/cardano-submit-api/config/tx-submit-mainnet-config.yaml)<br>
 [Cardano Submit API executable latest Windows binary](https://hydra.iohk.io/job/Cardano/cardano-node/cardano-node-win64/latest-finished)<br>
 [Daedalus Wallet](https://daedaluswallet.io/)<br>
+
+## Donations
+Found these scripts useful? Buy me a coffee by donating some ADA to the following address:
+`addr1vx0hn58q5dql783rzakayepg0akhkldmeqwlaz7mqrwmv3cuvxv2g`
