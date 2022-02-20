@@ -5,7 +5,7 @@ A collection of scripts for creating Cardano transactions
 **[submit_api.sh](submit_api.sh)** 
 - Create a [Cardano Submit API](https://input-output-hk.github.io/cardano-rest/submit-api/) listening process in Linux and connect it to [Daedalus wallet](https://daedaluswallet.io/). Useful for connecting light wallets like Nami or CCVault to a local node (Daedalus) rather than relying on external light wallet servers which can become congested or go offline. Windows powershell version is avaialable in [submit_api.ps1](submit_api.ps1)
 
-**[wallet_api.ps1](wallet_api.ps1)** 
+**[wallet_api.sh](wallet_api.sh)** 
 - Create a [Cardano Wallet API](https://input-output-hk.github.io/cardano-wallet/api/edge/) listening process in Linux and connect it to [Daedalus wallet](https://daedaluswallet.io/). Allows a user to send ADA on the command line using curl with json payloads. See [ada_cannon.sh](ada_cannon.sh) for how to connect to the Wallet API and create transactions. Windows powershell version is avaialable in [wallet_api.ps1](wallet_api.ps1)
 
 **[ada_cannon.sh](ada_cannon.sh)**
@@ -22,6 +22,7 @@ A collection of scripts for creating Cardano transactions
 [Cardano Wallet API documentation](https://input-output-hk.github.io/cardano-wallet/api/edge/)<br>
 [Cardano Submit API documentation](https://input-output-hk.github.io/cardano-rest/submit-api/)<br>
 [Cardano Submit API config file example](https://raw.githubusercontent.com/input-output-hk/cardano-node/master/cardano-submit-api/config/tx-submit-mainnet-config.yaml)<br>
+[Cardano Submit API executable latest Linux binary](https://hydra.iohk.io/job/Cardano/cardano-node/cardano-node-linux/latest-finished)<br>
 [Cardano Submit API executable latest Windows binary](https://hydra.iohk.io/job/Cardano/cardano-node/cardano-node-win64/latest-finished)<br>
 [Daedalus Wallet](https://daedaluswallet.io/)<br>
 
